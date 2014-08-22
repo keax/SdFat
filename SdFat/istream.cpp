@@ -19,6 +19,7 @@
  */
 #include <float.h>
 #include <istream.h>
+
 //------------------------------------------------------------------------------
 /**
  * Extract a character if one is available.
@@ -409,3 +410,4 @@ void istream::skipWhite() {
   } while (isspace(c));
   setpos(&pos);
 }
+

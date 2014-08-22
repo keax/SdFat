@@ -51,7 +51,7 @@
  * Force use of Arduino Standard SPI library if USE_ARDUINO_SPI_LIBRARY
  * is nonzero.
  */
-#define USE_ARDUINO_SPI_LIBRARY 0
+#define USE_ARDUINO_SPI_LIBRARY 1
 //------------------------------------------------------------------------------
 /**
  * To enable SD card CRC checking set USE_SD_CRC nonzero.

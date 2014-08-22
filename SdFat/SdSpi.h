@@ -62,7 +62,7 @@
 //
 #if !USE_AVR_SOFTWARE_SPI
 /** The default chip select pin for the SD card is SS. */
-uint8_t const  SD_CHIP_SELECT_PIN = SS;
+uint8_t const  SD_CHIP_SELECT_PIN = 0;
 #else  // USE_AVR_SOFTWARE_SPI
 /** SPI chip select pin for software SPI. */
 uint8_t const SD_CHIP_SELECT_PIN = SOFT_SPI_CS_PIN;

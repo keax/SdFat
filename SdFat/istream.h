@@ -305,3 +305,4 @@ void istream::getNumber(T* value) {
   }
 }
 #endif  // istream_h
+

@@ -206,10 +206,10 @@ class ostream : public virtual ios {
    * \param[in] arg pointing to flash string
    * \return the stream
    */
-  ostream &operator<< (const __FlashStringHelper *arg) {
+  /*ostream &operator<< (const __FlashStringHelper *arg) {
     putPgm(reinterpret_cast<const char*>(arg));
     return *this;
-  }
+  }*/
   /**
    * Puts a character in a stream.
    *
