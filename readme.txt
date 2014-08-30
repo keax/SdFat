@@ -1,3 +1,13 @@
+Fork for embedded :
+
+build :
+
+git submodule update --init --recursive
+
+cmake <pathTo_EmbeddedExample> -Dmcu=<mcu>
+
+make
+
 Please check the changes.txt file!
 
 For those who don't like too much documentation read QuickStart.txt.
